@@ -19,12 +19,9 @@ Solutions must meet primary goals too.
 
 Granted:
 - [Upgrade to WSDL 2.0 and SOAP 1.2](https://github.com/luisgg98/lab2-big-ws/tree/WSDL2.0_AND_SOAP1.2). Achieving this goal Luis García has learnt that the support promised by Spring Web Services for WSDL 2.0 is deceiving but the support for SOAP 1.2 is ok and can be used as transport independed of the WSDL version used :gift:
-- [Re-implement the project with GraphQL](https://github.com/rauljavierre/lab2-big-ws/tree/test). Achieving this goal Raul Javierre has not only learned GraphQL but also has learned that testing asynchronous endpoints (the GraphQL implementation used is exposed through an asynchronous controller) must be split in two steps in Spring MVC; in addition, he has learned not to use JSON strings (hard and error prone) and to use JSON objects instead (easy and powerful) :gift:  
-- [Re-implement the project with gRPC](https://github.com/saul205/lab2-big-ws/tree/gift). Achieving this goal Saúl Flores has learned that the similitudes and differences between Protobuf/gRPC and WSDL/SOAP. In addition he has learned to use Protobuf and generate code from Protobuf definitions :gift: 
-
-In progress:
-
-- Secure the endpoint [WS-Security](https://docs.spring.io/spring-ws/docs/3.0.10.RELEASE/reference/#security)
+- [Re-implement the project with GraphQL](https://github.com/rauljavierre/lab2-big-ws/tree/test). Achieving this goal Raul Javierre has not only learnt GraphQL but also has learnt that testing asynchronous endpoints (the GraphQL implementation used is exposed through an asynchronous controller) must be split in two steps in Spring MVC; in addition, he has learned not to use JSON strings (hard and error prone) and to use JSON objects instead (easy and powerful) :gift:  
+- [Re-implement the project with gRPC](https://github.com/saul205/lab2-big-ws/tree/gift). Achieving this goal Saúl Flores has learnt that the similitudes and differences between Protobuf/gRPC and WSDL/SOAP. In addition he has learned to use Protobuf and generate code from Protobuf definitions :gift: 
+- [Secure the endpoint WS-Security](https://github.com/jgarciapueyo/lab2-big-ws/tree/test). Achieving this goal Jorge García has learnt in addition concepts such as interceptors and callbacks which are widely used in HTTP-related libraries to add new functionalities.
 
 Proposed:
 
